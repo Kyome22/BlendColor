@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		775696401ED86DB90057D494 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7756963F1ED86DB90057D494 /* AppDelegate.swift */; };
-		775696421ED86DB90057D494 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775696411ED86DB90057D494 /* ViewController.swift */; };
+		775696421ED86DB90057D494 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775696411ED86DB90057D494 /* MainVC.swift */; };
 		775696451ED86DB90057D494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775696431ED86DB90057D494 /* Main.storyboard */; };
 		775696471ED86DB90057D494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775696461ED86DB90057D494 /* Assets.xcassets */; };
 		7756964A1ED86DB90057D494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775696481ED86DB90057D494 /* LaunchScreen.storyboard */; };
 		775696551ED86DBA0057D494 /* BlendColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775696541ED86DBA0057D494 /* BlendColorTests.swift */; };
 		775696601ED86DBA0057D494 /* BlendColorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7756965F1ED86DBA0057D494 /* BlendColorUITests.swift */; };
+		7756966E1ED86E050057D494 /* UIColorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7756966D1ED86E050057D494 /* UIColorCode.swift */; };
+		775696701ED870540057D494 /* MenuPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7756966F1ED870540057D494 /* MenuPageVC.swift */; };
+		775696721ED8706C0057D494 /* HowToPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775696711ED8706C0057D494 /* HowToPageVC.swift */; };
+		775696741ED872E50057D494 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775696731ED872E50057D494 /* GameBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		7756963C1ED86DB90057D494 /* BlendColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlendColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7756963F1ED86DB90057D494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		775696411ED86DB90057D494 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		775696411ED86DB90057D494 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		775696441ED86DB90057D494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		775696461ED86DB90057D494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		775696491ED86DB90057D494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		7756965B1ED86DBA0057D494 /* BlendColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlendColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7756965F1ED86DBA0057D494 /* BlendColorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendColorUITests.swift; sourceTree = "<group>"; };
 		775696611ED86DBA0057D494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7756966D1ED86E050057D494 /* UIColorCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorCode.swift; sourceTree = "<group>"; };
+		7756966F1ED870540057D494 /* MenuPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuPageVC.swift; sourceTree = "<group>"; };
+		775696711ED8706C0057D494 /* HowToPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToPageVC.swift; sourceTree = "<group>"; };
+		775696731ED872E50057D494 /* GameBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		7756963E1ED86DB90057D494 /* BlendColor */ = {
 			isa = PBXGroup;
 			children = (
+				7756966D1ED86E050057D494 /* UIColorCode.swift */,
 				7756963F1ED86DB90057D494 /* AppDelegate.swift */,
-				775696411ED86DB90057D494 /* ViewController.swift */,
+				775696411ED86DB90057D494 /* MainVC.swift */,
+				775696731ED872E50057D494 /* GameBoard.swift */,
+				7756966F1ED870540057D494 /* MenuPageVC.swift */,
+				775696711ED8706C0057D494 /* HowToPageVC.swift */,
 				775696431ED86DB90057D494 /* Main.storyboard */,
 				775696461ED86DB90057D494 /* Assets.xcassets */,
 				775696481ED86DB90057D494 /* LaunchScreen.storyboard */,
@@ -262,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				775696421ED86DB90057D494 /* ViewController.swift in Sources */,
+				775696421ED86DB90057D494 /* MainVC.swift in Sources */,
 				775696401ED86DB90057D494 /* AppDelegate.swift in Sources */,
+				775696721ED8706C0057D494 /* HowToPageVC.swift in Sources */,
+				775696701ED870540057D494 /* MenuPageVC.swift in Sources */,
+				775696741ED872E50057D494 /* GameBoard.swift in Sources */,
+				7756966E1ED86E050057D494 /* UIColorCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VJ5N2X84K8;
 				INFOPLIST_FILE = BlendColor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyome.BlendColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VJ5N2X84K8;
 				INFOPLIST_FILE = BlendColor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyome.BlendColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
