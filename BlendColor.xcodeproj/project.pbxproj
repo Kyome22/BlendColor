@@ -18,6 +18,7 @@
 		775696701ED870540057D494 /* MenuPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7756966F1ED870540057D494 /* MenuPageVC.swift */; };
 		775696721ED8706C0057D494 /* HowToPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775696711ED8706C0057D494 /* HowToPageVC.swift */; };
 		775696741ED872E50057D494 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775696731ED872E50057D494 /* GameBoard.swift */; };
+		77A876461ED8847D00BC8764 /* GamePieces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A876451ED8847D00BC8764 /* GamePieces.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		7756966F1ED870540057D494 /* MenuPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuPageVC.swift; sourceTree = "<group>"; };
 		775696711ED8706C0057D494 /* HowToPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToPageVC.swift; sourceTree = "<group>"; };
 		775696731ED872E50057D494 /* GameBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		77A876451ED8847D00BC8764 /* GamePieces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePieces.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				7756963F1ED86DB90057D494 /* AppDelegate.swift */,
 				775696411ED86DB90057D494 /* MainVC.swift */,
 				775696731ED872E50057D494 /* GameBoard.swift */,
+				77A876451ED8847D00BC8764 /* GamePieces.swift */,
 				7756966F1ED870540057D494 /* MenuPageVC.swift */,
 				775696711ED8706C0057D494 /* HowToPageVC.swift */,
 				775696431ED86DB90057D494 /* Main.storyboard */,
@@ -276,6 +279,7 @@
 			files = (
 				775696421ED86DB90057D494 /* MainVC.swift in Sources */,
 				775696401ED86DB90057D494 /* AppDelegate.swift in Sources */,
+				77A876461ED8847D00BC8764 /* GamePieces.swift in Sources */,
 				775696721ED8706C0057D494 /* HowToPageVC.swift in Sources */,
 				775696701ED870540057D494 /* MenuPageVC.swift in Sources */,
 				775696741ED872E50057D494 /* GameBoard.swift in Sources */,
@@ -534,6 +538,7 @@
 				775696661ED86DBA0057D494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		775696671ED86DBA0057D494 /* Build configuration list for PBXNativeTarget "BlendColorTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +547,7 @@
 				775696691ED86DBA0057D494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7756966A1ED86DBA0057D494 /* Build configuration list for PBXNativeTarget "BlendColorUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +556,7 @@
 				7756966C1ED86DBA0057D494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
